@@ -21,6 +21,18 @@
             </li>
           </ul>
         </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Seguridad
+          </a>
+          <ul class="dropdown-menu">
+            <li :key="mar">
+               <router-link class="dropdown-item" to="/login">Log in</router-link>
+                 <!-- <router-link class="dropdown-item" to="'/marca/'">Registrase</router-link>
+                   <router-link class="dropdown-item" to="'/marca/' ">Logout</router-link> -->
+            </li>
+          </ul>
+        </li>
       </ul>
     </div>
   </div>

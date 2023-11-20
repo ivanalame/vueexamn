@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Cubos marca</h1>
+    <h1>Cubos marca {{this.$route.params.marca}}</h1>
 <div v-for="cub in cubos" :key="cub" class="card">
   <img :src="cub.imagen" alt="Descripción de la imagen">
   <h1>Nombre: {{cub.nombre}}</h1>
